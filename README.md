@@ -138,4 +138,4 @@ The performance of multithreaded implementations depends on several factors:
 
 ## Conclusion
 
-The multithreaded implementations using `ThreadPoolExecutor` demonstrate significant performance improvements over sequential versions, particularly for larger inputs or I/O-bound operations. The code is also cleaner and more maintainable compared to manual thread management.# multithreading
+The multithreaded implementations using `ThreadPoolExecutor` demonstrate significant performance improvements over sequential versions, particularly for larger inputs or I/O-bound operations. The code is also cleaner and more maintainable compared to manual thread management.
