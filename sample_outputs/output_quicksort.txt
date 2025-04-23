@@ -1,0 +1,17 @@
+Running quicksort on 20 elements...
+
+Original array: 
+31 4 88 27 65 9 52 17 40 71 23 59 12 44 77 36 2 94 82 15
+
+Sorted array (Sequential): 
+2 4 9 12 15 17 23 27 31 36 40 44 52 59 65 71 77 82 88 94
+
+Sequential quicksort time: 0.0001 seconds
+
+Sorted array (ThreadPoolExecutor): 
+2 4 9 12 15 17 23 27 31 36 40 44 52 59 65 71 77 82 88 94
+
+ThreadPoolExecutor quicksort time: 0.0000 seconds
+
+Arrays are equal: True
+Speedup: 4.12x

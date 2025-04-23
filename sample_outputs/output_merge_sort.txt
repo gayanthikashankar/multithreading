@@ -1,0 +1,17 @@
+Running merge sort on 20 elements...
+
+Original array: 
+42 8 17 99 32 61 5 73 11 25 90 55 28 63 12 7 81 19 50 33
+
+Sorted array (Sequential): 
+5 7 8 11 12 17 19 25 28 32 33 42 50 55 61 63 73 81 90 99
+
+Sequential merge sort time: 0.0001 seconds
+
+Sorted array (ThreadPoolExecutor): 
+5 7 8 11 12 17 19 25 28 32 33 42 50 55 61 63 73 81 90 99
+
+ThreadPoolExecutor merge sort time: 0.0001 seconds
+
+Arrays are equal: True
+Speedup: 1.31x

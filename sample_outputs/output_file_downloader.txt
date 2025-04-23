@@ -1,0 +1,21 @@
+Found 4 URLs to download from sample_inputs/urls.txt
+
+Sequential Download:
+Downloaded https://www.gutenberg.org/files/1661/1661-0.txt to file_1.download
+Downloaded https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf to file_2.download
+Downloaded https://norvig.com/big.txt to file_3.download
+Downloaded https://www.irs.gov/pub/irs-pdf/p17.pdf to file_4.download
+
+Sequential download completed: 4/4 files
+Total time: 23.39 seconds
+
+ThreadPoolExecutor Download: 
+Downloaded https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf to file_2.download
+Downloaded https://www.gutenberg.org/files/1661/1661-0.txt to file_1.download
+Downloaded https://www.irs.gov/pub/irs-pdf/p17.pdf to file_4.download
+Downloaded https://norvig.com/big.txt to file_3.download
+
+ThreadPoolExecutor download completed: 4/4 files
+Total time: 8.09 seconds
+
+ThreadPoolExecutor speedup: 2.89x
