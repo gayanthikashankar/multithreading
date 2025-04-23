@@ -4,6 +4,7 @@ This repository contains implementations of three multithreaded Python tasks usi
 
 ## Project Structure
 
+```bash
 multithreading-assignment/
 ├── task1_merge_sort.py
 ├── task2_quicksort.py
@@ -17,6 +18,7 @@ multithreading-assignment/
     ├── output_merge_sort.txt
     ├── output_quicksort.txt
     └── output_file_downloader.txt
+```
 
 ## Dependencies
 
